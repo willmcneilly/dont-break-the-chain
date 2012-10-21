@@ -1,31 +1,9 @@
-<h1>Listing chains</h1>
+<div id="app"></div>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Days</th>
-    <th>Start</th>
-    <th>Information</th>
-    <th>Active</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+<script>
+    $(function(){
+      new App({el: $('#app')});
 
-<% @chains.each do |chain| %>
-  <tr>
-    <td><%= chain.name %></td>
-    <td><%= chain.days %></td>
-    <td><%= chain.start %></td>
-    <td><%= chain.information %></td>
-    <td><%= chain.active %></td>
-    <td><%= link_to 'Show', chain %></td>
-    <td><%= link_to 'Edit', edit_chain_path(chain) %></td>
-    <td><%= link_to 'Destroy', chain, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
+    });
 
-<br />
-
-<%= link_to 'New Chain', new_chain_path %>
+</script>
