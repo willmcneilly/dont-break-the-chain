@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @chain.name %>
+</p>
+
+<p>
+  <b>Days:</b>
+  <%= @chain.days %>
+</p>
+
+<p>
+  <b>Start:</b>
+  <%= @chain.start %>
+</p>
+
+<p>
+  <b>Information:</b>
+  <%= @chain.information %>
+</p>
+
+<p>
+  <b>Active:</b>
+  <%= @chain.active %>
+</p>
+
+
+<%= link_to 'Edit', edit_chain_path(@chain) %> |
+<%= link_to 'Back', chains_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  days: 1
+  start: 2012-10-21 14:21:24
+  information: MyText
+  active: false
+
+two:
+  name: MyString
+  days: 1
+  start: 2012-10-21 14:21:24
+  information: MyText
+  active: false
