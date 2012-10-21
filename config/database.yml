@@ -1,0 +1,35 @@
+development:
+  # Mysql Settings
+  adapter: mysql2
+  encoding: utf8
+  database: dbthc_development
+  username: root
+  password:
+  pool: 5
+  
+test:
+  # Mysql Settings
+  adapter: mysql2
+  encoding: utf8
+  database: dbthc_test
+  username: root
+  password:
+  pool: 5
+  
+staging:
+  # Mysql Settings
+  adapter: mysql2
+  encoding: utf8
+  database: dbthc_staging
+  username: root
+  password:
+  pool: 5
+  
+production:
+  # Mysql Settings
+  encoding: utf8
+  adapter: mysql2
+  database: dbtc_development
+  username: root
+  password:
+  pool: 5
