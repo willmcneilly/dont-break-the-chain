@@ -1,0 +1,9 @@
+<h1>Show Chain</h1>
+
+<a data-type="edit">Edit</a> <a data-type="back">Back</a>
+
+<p>Name: <%= @name %></p>
+<p>Days: <%= @days %></p>
+<p>Start: <%= @start %></p>
+<p>Information: <%= @information %></p>
+<p>Active: <%= @active %></p>

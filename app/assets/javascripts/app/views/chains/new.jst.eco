@@ -1,0 +1,54 @@
+<h1>New Chain</h1>
+
+<a data-type="back">Back</a>
+
+<form>
+  
+  <label>
+    <span>Name</span>
+    <input 
+      type="text" name="name" 
+      value="<%= @name %>" required
+ autofocus>
+    <br />
+  </label>
+  
+  <label>
+    <span>Days</span>
+    <input 
+      type="text" name="days" 
+      value="<%= @days %>" required
+>
+    <br />
+  </label>
+  
+  <label>
+    <span>Start</span>
+    <input 
+      type="text" name="start" 
+      value="<%= @start %>" required
+>
+    <br />
+  </label>
+  
+  <label>
+    <span>Information</span>
+    <input 
+      type="text" name="information" 
+      value="<%= @information %>" required
+>
+    <br />
+  </label>
+  
+  <label>
+    <span>Active</span>
+    <input 
+      type="text" name="active" 
+      value="<%= @active %>" required
+>
+    <br />
+  </label>
+  
+  <button>Create</button>
+
+</form>

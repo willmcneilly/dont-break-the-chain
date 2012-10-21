@@ -21,6 +21,7 @@ end
 
 gem 'jquery-rails'
 gem 'spine-rails'
+gem 'eco'
 
 gem "bootstrap-sass", "2.0.2"
 gem "compass-rails"

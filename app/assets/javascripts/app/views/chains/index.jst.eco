@@ -1,0 +1,12 @@
+<h1>Listing Chains</h1>
+
+<% for chain in @chains: %>
+  <div class="item" data-id="<%= chain.id %>">
+    <a data-type="show"><%= chain.name %></a>
+    
+    <a data-type="edit">Edit</a> 
+    <a data-type="destroy">Destroy</a>
+  </div>
+<% end %>
+
+<p><a data-type="new">New Chain</a></p>
