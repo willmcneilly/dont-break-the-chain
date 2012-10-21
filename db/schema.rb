@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121021132124) do
+ActiveRecord::Schema.define(:version => 20121021150033) do
 
   create_table "chains", :force => true do |t|
     t.string   "name"
@@ -21,6 +21,16 @@ ActiveRecord::Schema.define(:version => 20121021132124) do
     t.boolean  "active"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "links", :force => true do |t|
+    t.boolean  "complete"
+    t.datetime "completedat"
+    t.string   "timespent"
+    t.text     "information"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.integer  "chain_id"
   end
 
 end

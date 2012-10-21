@@ -1,4 +1,6 @@
 DontBreakTheChain::Application.routes.draw do
+  resources :links
+
   resources :chains
 
   # The priority is based upon order of creation:
@@ -50,7 +52,7 @@ DontBreakTheChain::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'chains#index'
+  #root :to => 'chains#index'
 
   # See how all your routes lay out with "rake routes"
 

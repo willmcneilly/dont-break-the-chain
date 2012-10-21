@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Complete:</b>
+  <%= @link.complete %>
+</p>
+
+<p>
+  <b>Completedat:</b>
+  <%= @link.completedat %>
+</p>
+
+<p>
+  <b>Timespent:</b>
+  <%= @link.timespent %>
+</p>
+
+<p>
+  <b>Information:</b>
+  <%= @link.information %>
+</p>
+
+
+<%= link_to 'Edit', edit_link_path(@link) %> |
+<%= link_to 'Back', links_path %>
