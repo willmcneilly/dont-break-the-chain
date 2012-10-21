@@ -22,6 +22,9 @@ end
 gem 'jquery-rails'
 gem 'spine-rails'
 
+gem "bootstrap-sass", "2.0.2"
+gem "compass-rails"
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
